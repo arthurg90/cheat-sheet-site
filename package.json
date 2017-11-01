@@ -23,5 +23,5 @@
     "gulp-sass": "^3.1.0",
     "gulp-sequence": "^0.4.6",
     "gulp-watch": "^4.3.11"
-  }
+  },
 }
