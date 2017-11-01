@@ -1,0 +1,27 @@
+{
+  "name": "cheat-sheet-site",
+  "version": "1.0.0",
+  "description": "Resource Website for various web development shortcuts and commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurg90/cheat-sheet-site.git"
+  },
+  "author": "Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurg90/cheat-sheet-site/issues"
+  },
+  "homepage": "https://github.com/arthurg90/cheat-sheet-site#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-watch": "^4.3.11"
+  }
+}
