@@ -27,10 +27,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #140032; //purple-ish background colour
 }
 body {
-  color: #fff;
+  color: #ffa518; //orange text
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
@@ -73,7 +73,7 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgba(255,255,255,.5);
+  color: #ffd235; //Nav links yellow color
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -88,8 +88,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #ffa518;//orange text for selected
+  border-bottom-color: rgba(255,255,255,.25);
 }
 
 @media (min-width: 48em) {
@@ -171,7 +171,7 @@ body {
 .sidebar-nav {
   position: absolute;
   top: 0;
-  width: 250px;
+  width: 25%;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -185,7 +185,7 @@ body {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #999999;
+  color: #ffa518;
 }
 
 .sidebar-nav li a:hover {
@@ -205,7 +205,7 @@ body {
 }
 
 .sidebar-nav>.sidebar-brand a {
-  color: #999999;
+  color: #ffa518;
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
@@ -222,4 +222,11 @@ body {
 .btn-default {
   font-size: 16px;
   padding: 5px;
+  background-color: #ffd235;
 }
+
+.form-control {
+  background-color: #371964;
+
+}
+
