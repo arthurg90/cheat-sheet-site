@@ -4,6 +4,7 @@ let rename = require('gulp-rename');
 let sass = require('gulp-sass');
 let watch = require('gulp-watch');
 let gulpSequence = require('gulp-sequence')
+let tabify = require('gulp-tabify');
 
 gulp.task('sass', function () {
     var stream = gulp.src('./scss/styles.scss')
@@ -26,4 +27,11 @@ gulp.task('styles', function(callback){
 
 gulp.task('watch', function () {
 	gulp.watch('./scss/*.scss', ['styles']);
+});
+
+//tabs to spaces plugin
+gulp.task('tabify', function () {
+  return gulp.src('./js/app.js')
+    .pipe(tabify(4, true))
+    .pipe(gulp.dest('./tabify/js'));
 });
