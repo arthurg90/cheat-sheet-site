@@ -59,6 +59,8 @@ gulp.task('js', function(callback){
 });
 
 gulp.task('watch', function () {
+    gulp.watch('./scss/*.scss', ['styles']);
+    gulp.watch('./js/*.js', ['js']);
 	browserSync.init({
         server: {
             baseDir: "./"
