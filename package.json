@@ -17,11 +17,16 @@
   },
   "homepage": "https://github.com/arthurg90/cheat-sheet-site#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sequence": "^0.4.6",
     "gulp-watch": "^4.3.11"
   },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-tabify": "0.0.2"
+  }
 }
