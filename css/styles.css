@@ -5890,7 +5890,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #140032; }
+  background: radial-gradient(ellipse at bottom, #1f66bf 20%, #140032 80%); }
 
 body {
   color: #ffa518;
@@ -5928,7 +5928,8 @@ body {
   margin-bottom: 2rem; }
 
 .masthead-brand {
-  margin-bottom: 0; }
+  margin: 0 0 0 40px;
+  font-family: 'Lobster', cursive; }
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
@@ -6016,7 +6017,8 @@ body {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #ffa518; }
+  color: #ffa518;
+  font-family: 'Open Sans', sans-serif; }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
@@ -6028,15 +6030,9 @@ body {
 
 .sidebar-nav > .sidebar-brand {
   height: 65px;
-  font-size: 18px;
-  line-height: 60px; }
-
-.sidebar-nav > .sidebar-brand a {
-  color: #ffa518; }
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none; }
+  font-size: 20px;
+  line-height: 60px;
+  font-family: 'Open Sans', sans-serif; }
 
 /* Sidebar search */
 .input-group {
@@ -6050,10 +6046,10 @@ body {
 .btn-default:hover {
   font-size: 16px;
   padding: 5px;
-  background-color: #ffa518; }
+  background-color: white; }
 
 .form-control {
-  background-color: #371964;
+  background-color: white;
   border-color: grey; }
 
 .logo {
