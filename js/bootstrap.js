@@ -45,7 +45,7 @@ var Util = function () {
           return event.handleObj.handler.apply(this, arguments); // eslint-disable-line prefer-rest-params
         }
 
-        return undefined; // eslint-disable-line no-undefined
+        return undefined; // eslint-disable-line no-undefined.
       }
     };
   }
