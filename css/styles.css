@@ -6047,5 +6047,15 @@ body {
   padding: 5px;
   background-color: #ffd235; }
 
+.btn-default:hover {
+  font-size: 16px;
+  padding: 5px;
+  background-color: #ffa518; }
+
 .form-control {
-  background-color: #371964; }
+  background-color: #371964;
+  border-color: grey; }
+
+.logo {
+  width: 10%;
+  height: 10%; }
